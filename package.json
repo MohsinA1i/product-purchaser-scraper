@@ -1,0 +1,25 @@
+{
+	"private": true,
+	"scripts": {
+		"start": "node dist/main.js",
+		"build": "tsc -p tsconfig.json"
+	},
+	"devDependencies": {
+		"typescript": "^4.1.2"
+	},
+	"dependencies": {
+		"@types/jsdom": "^16.2.5",
+		"@types/lodash": "^4.14.165",
+		"@types/string-similarity": "^4.0.0",
+		"jsdom": "^16.4.0",
+		"lodash": "^4.17.20",
+		"playwright": "^1.6.2",
+		"string-similarity": "^4.0.3"
+	},
+	"name": "product-purchaser-scraper",
+	"version": "1.0.0",
+	"main": "dist/main.js",
+	"repository": "https://github.com/MohsinA1i/product-purchaser-scraper.git",
+	"author": "MohsinA1i",
+	"license": "MIT"
+}
